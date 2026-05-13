@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-tensorflow
+  description: an Open Source Machine Learning Framework for Everyone
+  tags:
+  - cpp
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-tensorflow
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-tensorflow/tree/master/
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    blitzy.com/language: cpp
+spec:
+  type: library
+  lifecycle: production
+  owner: blitzy-sandbox
+  system: blitzy-c-cpp
