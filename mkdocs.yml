@@ -1,0 +1,9 @@
+site_name: blitzy-tensorflow
+site_description: TensorFlow - end-to-end open source platform for machine learning
+docs_dir: docs
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
